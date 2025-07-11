@@ -1,0 +1,34 @@
+# Validate Pull Request
+name: Validate Pull Request
+description: Validate a pull request for the brooksrunning repo
+permissions: 
+  pull-requests: read
+inputs:
+  GITHUB_TOKEN:
+    description: GitHub Token
+    required: true
+    
+  JIRA_BASE_URL:
+    description: Jira Base URL
+    required: true
+
+  JIRA_USER_EMAIL:
+    description: Jira User Email
+    required: true
+
+  JIRA_API_TOKEN:
+    description: Jira API Token
+    required: true
+
+  TICKET_ID:
+    description: Jira Ticket ID / branch name
+    required: true
+
+outputs:
+  validation:
+    description: Is the pull request valid? (Bool)
+
+runs:
+  using: 'node16'
+  main: 'index.js'
+    

@@ -10712,7 +10712,7 @@ setprototypeof@1.2.0:
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.2.0.tgz#66c9a24a73f9fc28cbe66b09fed3d33dcaf1b424"
   integrity sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==
 
-sgmf-scripts@3.0.0:
+sgmf-scripts^@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/sgmf-scripts/-/sgmf-scripts-3.0.0.tgz#f3a9f2973da1586d2aca6cab6b14114c542e3677"
   integrity sha512-cxuvTcTJ//4kiZGGE1FhBDOGxDbZGGdcHz0o2lZB2GtBF4Q5gc8gistguYPBsleAaWUbURnlq4/ZP1mOD6mlzg==

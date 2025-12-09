@@ -6,6 +6,6 @@
   "dependencies": {
     "hot-formula-parser": "^3.0.0",
     "lodash": "^4.17.20",
-    "octokit": "^2.0.14"
+    "octokit": "^5.0.3"
   }
 }
